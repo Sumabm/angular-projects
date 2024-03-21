@@ -1,0 +1,45 @@
+.main{ 
+    background-image: url(image/backgrd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.main_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img{
+    width:20%;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttons .btn1{
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+    border-color: white;
+    font-size: 12px;
+    font-family: cursive;
+    font-weight: 400;
+    background: transparent;
+}
+.buttons .btn2{
+    border-radius: 5px;
+    padding: 8px 15px;
+    color:white;
+    border-color: red;
+    font-size: 12px;
+    font-family: cursive;
+    font-weight: 400;
+    background: transparent;
+}
+.buttons .btn2:hover{
+    ;
+}
+

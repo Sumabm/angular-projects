@@ -1,0 +1,38 @@
+
+.main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center;// */
+}
+.logo1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.main_content p{
+    /* text-align: center; */
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{}
